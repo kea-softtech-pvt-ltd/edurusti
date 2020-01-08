@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} gearspect\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ http://edurusti.com/$1 [R,L]
+RewriteEngine On    # Turn on the rewriting engine
+
+RewriteRule    ^/?$    index.php
+RewriteRule    ^our-service/?$    our-service.php
+RewriteRule    ^about/?$    about.php
+RewriteRule    ^contact/?$    contact.php
+RewriteRule    ^dashboard/?$    dashboard.php
+RewriteRule    ^placeorder/?$    placeorder.php
+RewriteRule    ^vieworders/?$    vieworders.php
+RewriteRule    ^cancelledorders/?$    cancelledorders.php
+RewriteRule    ^trackorders/?$    trackorders.php
+RewriteRule    ^logout/?$    logout.php

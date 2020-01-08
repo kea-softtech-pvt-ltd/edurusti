@@ -1,0 +1,69 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 29/04/2017 12:14
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-facebook-placeholder-for-locate-places-on-maps:before { content: "\f100"; }
+.flaticon-placeholder-1:before { content: "\f101"; }
+.flaticon-placeholder:before { content: "\f102"; }
+.flaticon-letter:before { content: "\f103"; }
+.flaticon-opened-email-envelope:before { content: "\f104"; }
+.flaticon-back-arrow:before { content: "\f105"; }
+.flaticon-tool-2:before { content: "\f106"; }
+.flaticon-tool-1:before { content: "\f107"; }
+.flaticon-settings-gears:before { content: "\f108"; }
+.flaticon-send-message-button:before { content: "\f109"; }
+.flaticon-sent-mail:before { content: "\f10a"; }
+.flaticon-paper-plane:before { content: "\f10b"; }
+.flaticon-calendar:before { content: "\f10c"; }
+.flaticon-open-laptop-computer:before { content: "\f10d"; }
+.flaticon-laptop:before { content: "\f10e"; }
+.flaticon-music-headphones:before { content: "\f10f"; }
+.flaticon-gamepad-console:before { content: "\f110"; }
+.flaticon-computer-tablet:before { content: "\f111"; }
+.flaticon-desktop-monitor:before { content: "\f112"; }
+.flaticon-smartphone-call:before { content: "\f113"; }
+.flaticon-tool:before { content: "\f114"; }
+.flaticon-wrench-1:before { content: "\f115"; }
+.flaticon-mechanic:before { content: "\f116"; }
+.flaticon-wrench:before { content: "\f117"; }
+.flaticon-repair:before { content: "\f118"; }
+.flaticon-play-button-3:before { content: "\f119"; }
+.flaticon-play-button-2:before { content: "\f11a"; }
+.flaticon-play-button-1:before { content: "\f11b"; }
+.flaticon-play-button:before { content: "\f11c"; }
+.flaticon-close-envelope:before { content: "\f11d"; }
+.flaticon-message-closed-envelope:before { content: "\f11e"; }
+.flaticon-mail:before { content: "\f11f"; }
+.flaticon-envelope:before { content: "\f120"; }
+.flaticon-technology:before { content: "\f121"; }
+.flaticon-clock-1:before { content: "\f122"; }
+.flaticon-clock:before { content: "\f123"; }
+.flaticon-time:before { content: "\f124"; }
+.flaticon-checked:before { content: "\f125"; }
